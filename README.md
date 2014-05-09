@@ -16,5 +16,6 @@ parser.query("HorizontalLayout + *").from(getUI()).forEach(new QueryAction() {
 	public void void action(Component component) {
 		component.setWidth("100%");
 	}
+
 });
 ```
